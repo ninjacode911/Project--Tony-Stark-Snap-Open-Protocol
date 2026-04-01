@@ -1,0 +1,28 @@
+{
+    "programs": [
+        {
+            "name": "Google Antigravity",
+            "path": "C:\\Users\\navni\\AppData\\Local\\Programs\\Antigravity\\Antigravity.exe"
+        },
+        {
+            "name": "Brave",
+            "path": "C:\\Program Files\\BraveSoftware\\Brave-Browser\\Application\\brave.exe"
+        },
+        {
+            "name": "Opera GX",
+            "path": "C:\\Users\\navni\\AppData\\Local\\Programs\\Opera GX\\opera.exe"
+        },
+        {
+            "name": "Spotify",
+            "path": "C:\\Users\\navni\\AppData\\Local\\Microsoft\\WindowsApps\\Spotify.exe"
+        }
+    ],
+    "detection": {
+        "threshold": 0.3,
+        "sample_rate": 44100,
+        "chunk_size": 1024,
+        "double_snap_window": 1.0,
+        "min_snap_interval": 0.25,
+        "cooldown": 10
+    }
+}
