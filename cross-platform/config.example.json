@@ -1,0 +1,26 @@
+{
+    "_comment": "Copy this file to config.json and update paths for your OS. See README for platform-specific examples.",
+
+    "programs": [
+        {
+            "name": "Browser",
+            "path": "/Applications/Google Chrome.app"
+        },
+        {
+            "name": "Code Editor",
+            "path": "/Applications/Visual Studio Code.app"
+        },
+        {
+            "name": "Music",
+            "path": "spotify"
+        }
+    ],
+    "detection": {
+        "threshold": 0.3,
+        "sample_rate": 44100,
+        "chunk_size": 1024,
+        "double_snap_window": 1.0,
+        "min_snap_interval": 0.25,
+        "cooldown": 10
+    }
+}
