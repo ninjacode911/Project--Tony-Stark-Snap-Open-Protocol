@@ -2,7 +2,7 @@
     "programs": [
         {
             "name": "Google Antigravity",
-            "path": "C:\\Users\\navni\\AppData\\Local\\Programs\\Antigravity\\Antigravity.exe"
+            "path": "C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Antigravity\\Antigravity.exe"
         },
         {
             "name": "Brave",
@@ -10,11 +10,11 @@
         },
         {
             "name": "Opera GX",
-            "path": "C:\\Users\\navni\\AppData\\Local\\Programs\\Opera GX\\opera.exe"
+            "path": "C:\\Users\\<YourUsername>\\AppData\\Local\\Programs\\Opera GX\\opera.exe"
         },
         {
             "name": "Spotify",
-            "path": "C:\\Users\\navni\\AppData\\Local\\Microsoft\\WindowsApps\\Spotify.exe"
+            "path": "C:\\Users\\<YourUsername>\\AppData\\Local\\Microsoft\\WindowsApps\\Spotify.exe"
         }
     ],
     "detection": {

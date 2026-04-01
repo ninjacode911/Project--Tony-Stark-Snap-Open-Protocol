@@ -123,7 +123,7 @@ Project--Tony-Stark-Snap-Open-Protocol/
 ├── launcher.py            # Program launcher with path validation and error handling
 ├── tray_icon.py           # System tray integration with arc-reactor icon
 ├── setup_startup.py       # Install/uninstall from Windows startup folder
-├── config.json            # User configuration — programs list and detection tuning
+├── config.example.json    # Example configuration — copy to config.json and edit paths
 ├── requirements.txt       # Python dependencies
 ├── LICENSE                # Source Available license
 ├── .gitignore             # Git ignore rules
@@ -150,7 +150,13 @@ pip install -r requirements.txt
 
 ### 2. Configure your programs
 
-Open `config.json` and update the program paths to match your system:
+Copy the example config and update the paths to match your system:
+
+```bash
+cp config.example.json config.json
+```
+
+Edit `config.json` and replace `<YourUsername>` with your Windows username:
 
 ```json
 {
